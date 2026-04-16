@@ -1,40 +1,230 @@
 {
-	"templateId": "generic",
-	"businessName": "Your Business",
-	"tagline": "Professional services you can trust",
-	"primaryColor": "#7c3aed",
-	"secondaryColor": "#f3f4f6",
-	"font": "Inter",
-	"heroImageUrl": "",
-	"aboutImageUrl": "",
-	"aboutText": "",
-	"footerText": "",
-	"whatsappNumber": "",
-	"googleMapsEmbedUrl": "",
-	"web3formsAccessKey": "",
-	"email": "",
-	"phone": "",
-	"address": "",
-	"hours": "",
-	"hero": { "headline": "", "subheadline": "", "ctaText": "Get a Quote", "image": "", "imagePrompt": "" },
-	"about": { "text": "", "image": "", "imagePrompt": "" },
-	"contact": { "email": "", "phone": "", "address": "", "hours": "", "whatsappNumber": "" },
-	"services": [],
-	"products": [],
-	"testimonials": [],
-	"pages": [
-		{
-			"slug": "home",
-			"name": "Home",
-			"sections": [
-				{ "type": "hero" },
-				{ "type": "services" },
-				{ "type": "testimonials" },
-				{ "type": "about" },
-				{ "type": "contact" },
-				{ "type": "footer" }
-			]
-		}
-	],
-	"sections": []
+  "templateId": "workouts",
+  "businessName": "Unlock Your Potential",
+  "tagline": "Personalized [FOCUS] plans tailored to your goals",
+  "primaryColor": "#1E3A8A",
+  "secondaryColor": "#FACC15",
+  "font": "Inter",
+  "heroImageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600",
+  "sections": [
+    {
+      "type": "hero",
+      "style": "with-button"
+    },
+    {
+      "type": "services",
+      "columns": 3
+    },
+    {
+      "type": "pricing",
+      "title": "Membership Plans",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 29,
+          "features": [
+            "1 workout plan",
+            "Community support"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 59,
+          "features": [
+            "Unlimited plans",
+            "1-on-1 coach"
+          ],
+          "popular": true
+        },
+        {
+          "name": "Elite",
+          "price": 99,
+          "features": [
+            "All Pro features",
+            "Nutrition guide",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "layout": "grid"
+    },
+    {
+      "type": "contact"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "name": "Home",
+      "sections": [
+        {
+          "type": "hero",
+          "style": "with-button"
+        },
+        {
+          "type": "services",
+          "columns": 3
+        },
+        {
+          "type": "testimonials",
+          "layout": "grid"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "footer"
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "name": "Services",
+      "sections": [
+        {
+          "type": "hero",
+          "style": "minimal"
+        },
+        {
+          "type": "services"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "name": "About",
+      "sections": [
+        {
+          "type": "hero",
+          "style": "minimal"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "name": "Contact",
+      "sections": [
+        {
+          "type": "hero",
+          "style": "minimal"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "name": "Personalize Workouts",
+      "description": "Generate workout plan tailored to your body, goals, and [FOCUS] level.",
+      "priceFrom": 100,
+      "durationHours": "N/A",
+      "popular": true
+    },
+    {
+      "name": "Achieve Your Goals",
+      "description": "Whether it's running, swimming, or cycling, we help you hit your personal best in [FOCUS].",
+      "priceFrom": 50,
+      "durationHours": "N/A"
+    },
+    {
+      "name": "Nutrition Guidance",
+      "description": "Get meal plans and nutrition advice to complement your [FOCUS] training.",
+      "priceFrom": 75,
+      "durationHours": "N/A"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "This programme completely transformed my fitness level in just 8 weeks.",
+      "author": "James T.",
+      "location": "Manchester",
+      "rating": 5
+    },
+    {
+      "text": "The HIIT sessions are intense but incredibly rewarding. Best trainer ever.",
+      "author": "Sarah M.",
+      "location": "London",
+      "rating": 5
+    },
+    {
+      "text": "I've tried many fitness programmes and this is by far the best structured.",
+      "author": "David K.",
+      "location": "Bristol",
+      "rating": 5
+    },
+    {
+      "text": "The running programme helped me complete my first half marathon!",
+      "author": "Emma R.",
+      "location": "Birmingham",
+      "rating": 5
+    },
+    {
+      "text": "Professional coaching with real results. Down two dress sizes in 3 months.",
+      "author": "Lisa H.",
+      "location": "Leeds",
+      "rating": 5
+    },
+    {
+      "text": "The yoga sessions are a great complement to the strength training.",
+      "author": "Oliver P.",
+      "location": "London",
+      "rating": 4
+    },
+    {
+      "text": "Flexible scheduling and fantastic support from the coaching team.",
+      "author": "Rachel G.",
+      "location": "Edinburgh",
+      "rating": 5
+    },
+    {
+      "text": "My posture has improved dramatically. Highly recommend to everyone.",
+      "author": "Tom B.",
+      "location": "Glasgow",
+      "rating": 5
+    },
+    {
+      "text": "The community here keeps me motivated every single week.",
+      "author": "Chloe W.",
+      "location": "Manchester",
+      "rating": 4
+    }
+  ],
+  "footerText": "Transform your body, transform your life.",
+  "email": "info@unlockyourpotential.com",
+  "phone": "+44 20 1234 5678",
+  "address": "London, UK",
+  "hours": "Mon–Fri, 6am–9pm",
+  "whatsappNumber": "447123456789",
+  "aboutText": "We believe fitness should be accessible, enjoyable, and tailored to your unique goals. Our certified trainers work one-on-one with every client.",
+  "aboutImageUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
+  "contact": {
+    "email": "info@unlockyourpotential.com",
+    "phone": "+44 20 1234 5678",
+    "address": "London, UK",
+    "hours": "Mon–Fri, 6am–9pm",
+    "whatsappNumber": "447123456789"
+  }
 }
